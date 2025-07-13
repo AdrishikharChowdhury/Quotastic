@@ -1,0 +1,190 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bgcolor1:#FF9F1C;
+    --bgcolor2:#2EC4B6;
+    --bg-color3: #26532B;
+    --btn-color:#D4C5E2;
+}
+
+body{
+    min-width: 100vw;
+    max-width: 100%;
+    min-height: 100vh;
+    max-height: 100%;
+    background:linear-gradient(to top right,var(--bgcolor1),var(--bg-color3),var(--bgcolor2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.quote-info{
+    width: max-content;
+    height: max-content;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+#author-info{
+    display: none;
+    width: 20rem;
+    height: max-content;
+    background-color: white;
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+    border-radius: 2rem;
+    box-shadow: 0.4rem 0.8rem 1.2rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+#author-name{
+    font-size: 1.6rem;
+    font-weight: bold;
+}
+
+#author-bio{
+    text-align: center;
+    font-size: 1rem;
+    line-height: 1.8;
+}
+
+#quote-menu{
+    height: max-content;
+    width: max-content;
+    padding: 2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+    box-shadow: 0.4rem 0.8rem 1.2rem 0.5rem rgba(0, 0, 0, 0.25);
+}
+
+.quote-icon{
+    width: 4rem;
+    height: 4rem;
+    background-image: url(../images/quote-svgrepo-com.svg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    mix-blend-mode: lighten;
+    filter: invert(1);
+}
+
+.heading{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    width: 60%;
+    text-align: center;
+}
+
+.heading p{
+    font-size: 4rem;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.subheading{
+    padding: 0.2rem 1.5rem 0.2rem 1.5rem;
+    font-size: 2rem;
+    font-weight: bold;
+    border-bottom: #3AAFB9 0.3rem solid;
+}
+
+#quote{
+    width: 40rem;
+    height: max-content;
+    border: 0.1rem black solid;
+    padding: 2rem;
+    box-shadow: 0.4rem 0.8rem 1.2rem 0.5rem rgba(0, 0, 0, 0.25);
+    border-radius: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 12rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#quote-text{
+    line-height: 1.6;
+    font-size: 1.5rem;
+    text-align: center;
+    width: 100%;
+    height: 50%;
+    font-style: italic;
+}
+
+#quote-author{
+    align-self: flex-end;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.btns{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    height: 40%;
+}
+
+#submit,#share,#author{
+    padding: 1rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    font-size: 1rem;
+    border-radius: 2rem;
+    cursor: pointer;
+    background-color: var(--btn-color);
+    border: none;
+    box-shadow: 0.4rem 0.8rem 1.2rem 0.5rem rgba(0, 0, 0, 0.25);
+    transition: all 0.3s ease-in-out;
+}
+
+#author{
+    display: none;
+}
+
+#submit{
+    display: flex;
+}
+
+#share{
+    display: none;
+}
+
+#submit:hover,#share:hover,#author:hover{
+    background-color: #3AAFB9;
+    color: white;
+    font-weight: bold;
+    transform: translateY(-0.2rem);
+}
+
+#submit:active,#share:active,#author:active{
+    transform: translateY(0.2rem);
+}

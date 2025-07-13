@@ -1,0 +1,162 @@
+/* Tablet screens (≤ 900px) */
+@media (max-width: 900px) {
+    .heading p{
+        font-size: 2rem;
+    }
+
+    .quote-icon{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .heading{
+        gap: 1.2rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .subheading{
+        font-size: 1.5rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #quote-text{
+        font-size: 1.2rem;
+    }
+
+    #quote-author{
+        font-size: 1rem;
+    }
+
+    .quote-info{
+        flex-direction: column;
+    }
+
+    #quote{
+        width: 100%;
+    }
+
+    #quote-menu{
+        padding: 2rem;
+        width: 90vw;
+    }
+
+    #submit,#share,#author{
+        font-size: 0.8rem;
+    }
+
+    .btns{
+        gap: 0.8rem;
+    }
+}
+
+/* Mobile screens (≤ 600px) */
+@media (max-width: 600px) {
+    .heading p{
+        font-size: 2rem;
+    }
+
+    .quote-icon{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .heading{
+        gap: 1.2rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .subheading{
+        font-size: 1.5rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #quote-text{
+        font-size: 1.2rem;
+    }
+
+    #quote-author{
+        font-size: 1rem;
+    }
+
+    .quote-info{
+        flex-direction: column;
+    }
+
+    #quote{
+        width: 100%;
+    }
+
+    #quote-menu{
+        padding: 2rem;
+        width: 90vw;
+    }
+
+    #submit,#share,#author{
+        font-size: 0.8rem;
+    }
+
+    .btns{
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+}
+
+
+/* Extra Small Devices (≤ 400px) */
+@media (max-width: 500px) {
+    .heading p{
+        font-size: 2rem;
+    }
+
+    .quote-icon{
+        width: 2rem;
+        height: 2rem;
+    }
+
+    .heading{
+        gap: 1.2rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    .subheading{
+        font-size: 1.5rem;
+        width: fit-content;
+        height: fit-content;
+    }
+
+    #quote-text{
+        font-size: 1.2rem;
+    }
+
+    #quote-author{
+        font-size: 1rem;
+    }
+
+    .quote-info{
+        flex-direction: column;
+    }
+
+    #quote{
+        width: 100%;
+    }
+
+    #quote-menu{
+        padding: 2rem;
+        width: 90vw;
+    }
+
+    #submit,#share,#author{
+        font-size: 0.8rem;
+    }
+
+    .btns{
+        flex-wrap: wrap;
+        gap: 0.8rem;
+    }
+}
+

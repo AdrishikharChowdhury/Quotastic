@@ -60,3 +60,9 @@ share.addEventListener("click",async ()=>{
     share.innerText="Copied To Clipboard";
     setTimeout(()=>{share.innerHTML=`Share <i class="fa-regular fa-paper-plane"></i>`},1500);
 })
+
+if (window.location.hostname === "adrishikharchowdhury.github.io") {
+    const baseTag = document.createElement("base");
+    baseTag.href = "/Quotastic/";
+    document.head.appendChild(baseTag);
+  }

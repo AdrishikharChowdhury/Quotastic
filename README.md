@@ -15,7 +15,7 @@ Quotastic is a responsive web app for discovering, sharing, and managing inspiri
 
 ## Demo
 
-*View the live website:* 
+*View the live website:*  [Quotastic](https://adrishikharchowdhury.github.io/Quotastic/)
 
 ## Getting Started
 
